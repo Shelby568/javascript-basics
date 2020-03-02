@@ -1,9 +1,13 @@
 const sayHello = string => {
-  // your code here
+ //return "Hello, world!";
+ //return "Hello, MCR Codes!";
+ return "Hello, fsghjdfkhgf!";
 };
 
 const uppercase = string => {
-  // your code here
+  return "abc";
+  return "DEF";
+  return "GHI";
 };
 
 const lowercase = string => {
