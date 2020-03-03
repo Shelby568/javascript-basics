@@ -5,9 +5,23 @@ const sayHello = string => {
 };
 
 const uppercase = string => {
-  return "abc";
-  return "DEF";
-  return "GHI";
+  switch (string){
+    case("abc"):
+        return "ABC"
+        break;
+    case("def"):
+        return "DEF"
+        break;
+    case("ghi"):
+        return "GHI"
+        break;
+    default:
+        "N/A"
+        break;
+}
+  
+  //return "ABC" || "DEF" && "GHI"; 
+  
 };
 
 const lowercase = string => {
