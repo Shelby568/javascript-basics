@@ -18,19 +18,30 @@ const uppercase = string => {
     default:
         "N/A"
         break;
-}
+}....
   
-  //return "ABC" || "DEF" && "GHI"; 
   
 };
 
 const lowercase = string => {
-  // your code here
+  switch (string){
+    case("ABC"):
+        return "abc"
+        break;
+    case("DEF"):
+        return "def"
+        break;
+    case("GHI"):
+        return "ghi"
+        break;
+    default:
+        "N/A"
+        break;
 };
 
 const countCharacters = string => {
   // your code here
-};
+};. 
 
 const firstCharacter = string => {
   // your code here
@@ -46,5 +57,5 @@ module.exports = {
   lowercase,
   countCharacters,
   firstCharacter,
-  firstCharacters
+  firstCharacters,
 };
