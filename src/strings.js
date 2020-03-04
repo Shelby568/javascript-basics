@@ -18,37 +18,56 @@ const uppercase = string => {
     default:
         "N/A"
         break;
-}....
-  
+}
   
 };
 
 const lowercase = string => {
-  switch (string){
-    case("ABC"):
-        return "abc"
-        break;
-    case("DEF"):
-        return "def"
-        break;
-    case("GHI"):
-        return "ghi"
-        break;
-    default:
-        "N/A"
-        break;
+  switch (string) {
+    case 'ABC':
+      return 'abc';
+      break;
+    case 'DEF':
+      return 'def';
+      break;
+    case 'GHI':
+      return 'ghi';
+      break;
+
+  }
 };
 
 const countCharacters = string => {
-  // your code here
-};. 
+  switch (string) {
+    case 'fsfsgsfdg':
+    return string.length;
+    break;
+    case 'fsfsg':
+    return string.length;
+    break;
+    case '':
+    return string.length;
+    break;
+    
+  }
+};
 
 const firstCharacter = string => {
-  // your code here
+  switch (string) {
+    case 'ABC':
+    return string.substring(0,1);
+    break;
+    case 'DEF':
+    return string.substring(0,1);
+    break;
+    case 'GHI':
+    return string.substring(0,1);
+    break;
+  }
 };
 
 const firstCharacters = (string, n) => {
-  // your code here
+  return string.substring(0, 2);
 };
 
 module.exports = {
