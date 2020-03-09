@@ -6,37 +6,35 @@ return {
 };
 
 const getName = object => {
-  
-
-
-  };
+  return object.name;
+};
 
 const getProperty = (property, object) => {
-  // your code here
+  return object[property];
 };
 
 const hasProperty = (property, object) => {
-  // your code here
+  return object.hasOwnProperty(property);
 };
 
 const isOver65 = person => {
-  // your code here
+  return person.age > 65;
 };
 
 const getAges = people => {
-  // your code here
+  return people.map(name => name.age);
 };
 
 const findByName = (name, people) => {
-  // your code here
+  return people.find(ppl => ppl.name === name);
 };
 
 const findHondas = cars => {
-  // your code here
+  return cars.filter(car => car.manufacturer === "Honda");
 };
 
 const averageAge = people => {
-  // your code here
+  return people.reduce((acc, name) => acc + name.age, 0) / people.length;
 };
 
 const createTalkingPerson = (name, age) => {
